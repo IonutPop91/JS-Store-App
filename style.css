@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+  }
+  
+  th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  th {
+    background-color: red;
+    color: white;
+  }
+  
+  .category-details {
+    display: none;
+    margin-top: 20 px;
+  }
+  
+  .back-button, .show-button {
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .back-button:hover, .show-button:hover {
+    background-color: #2980b9;
+  }
